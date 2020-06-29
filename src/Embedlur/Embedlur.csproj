@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <Authors>XAOS Interactive</Authors>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageProjectUrl>https://github.com/skimurio/Embedlur</PackageProjectUrl>
+    <Description>Embedlur is a project that aims to allow for easy embedding via a free api for all developers. The aim of it is to replace embedly for Skimur and was written with Skimur in mind.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Autofac" Version="5.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Providers\" />
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+</Project>

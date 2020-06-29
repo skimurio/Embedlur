@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Embedlur", "src\Embedlur\Embedlur.csproj", "{C1D87D15-E0DC-4CDC-A0B3-52332EE27618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Embedlur.Web", "src\Embedlur.Web\Embedlur.Web.csproj", "{0852DE5E-C7AE-401D-8040-07B26CCCF3AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1D87D15-E0DC-4CDC-A0B3-52332EE27618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D87D15-E0DC-4CDC-A0B3-52332EE27618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D87D15-E0DC-4CDC-A0B3-52332EE27618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D87D15-E0DC-4CDC-A0B3-52332EE27618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0852DE5E-C7AE-401D-8040-07B26CCCF3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0852DE5E-C7AE-401D-8040-07B26CCCF3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0852DE5E-C7AE-401D-8040-07B26CCCF3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0852DE5E-C7AE-401D-8040-07B26CCCF3AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
